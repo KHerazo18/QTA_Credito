@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">qta</string>
+    <string name="cr_dito_hipotecario_en_colombia">Crédito Hipotecario en Colombia</string>
+    <string name="simuladores">Simuladores</string>
+    <string name="cu_nto_necesitas">* ¿Cuánto necesitas?</string>
+    <string name="a_qu_plazo_necesitas_del_cr_dito_a_os">* ¿A qué plazo necesitas del crédito (años)?</string>
 </resources>
