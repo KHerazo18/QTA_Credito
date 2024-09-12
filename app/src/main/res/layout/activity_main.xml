@@ -11,12 +11,13 @@
         android:id="@+id/ma_et_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/ma_tv_detalles_primero"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_primero" />
 
     <TextView
         android:id="@+id/ma_tv_titulo"
@@ -24,7 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="@string/simuladores"
-        app:layout_constraintBottom_toTopOf="@+id/ma_tv_nombreapp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,119 +34,147 @@
         android:id="@+id/ma_ed_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_cuarto" />
 
     <TextView
         android:id="@+id/ma_tv_segundo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
         android:text="@string/cu_nto_necesitas"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_detalles_primero" />
 
     <TextView
         android:id="@+id/ma_tv_primero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="* ¿Cuánto necesitas?"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="137dp" />
+        android:layout_marginTop="32dp"
+        android:text="* Valor de la propiedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_nombreapp" />
 
     <EditText
         android:id="@+id/ma_ed_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="text"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="412dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_primero_tercero" />
 
     <TextView
         android:id="@+id/ma_tv_primero_tercero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="20dp"
         android:text="@string/a_qu_plazo_necesitas_del_cr_dito_a_os"
-        app:layout_constraintBottom_toTopOf="@+id/ma_ed_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_detalles_segundo" />
 
     <EditText
         android:id="@+id/ma_ed_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="271dp" />
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_segundo" />
 
     <TextView
         android:id="@+id/ma_tv_detalles_segundo"
         android:layout_width="369dp"
         android:layout_height="40dp"
-        android:text="El préstamo mpinimo es de $50.000.000 y no puede exceder el 70% del valor de la propiedad para créditos hipotecarios, mientras que para leasing habitacional no puede exceder del 80% del valor de la propiedad"
+        android:layout_marginTop="4dp"
+        android:text="El préstamo mínimo es de $50.000.000 y no puede exceder el 70% del valor de la propiedad para créditos hipotecarios, mientras que para leasing habitacional no puede exceder del 80% del valor de la propiedad"
         android:textSize="10sp"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="326dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_ed_2" />
 
     <TextView
         android:id="@+id/ma_tv_cuarto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="* ¿A qué tasa de interés efectiva anual (TAE)?"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_detalles_tercero" />
 
     <TextView
         android:id="@+id/ma_tv_detalles_tercero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:text="Van desde los 5 hasta los 20 años."
         android:textSize="10sp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="465dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_ed_3" />
 
     <TextView
         android:id="@+id/ma_tv_detalles_cuarto"
-        android:layout_width="359dp"
-        android:layout_height="38dp"
+        android:layout_width="356dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
         android:text="Esta tasa depende de tu historial crediticio y del banco en que pides el crédito"
         android:textSize="10sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/ma_ed_4"
-        app:layout_constraintVertical_bias="0.196"
-        tools:layout_editor_absoluteX="24dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_ed_4" />
 
     <TextView
         android:id="@+id/ma_tv_detalles_primero"
         android:layout_width="361dp"
         android:layout_height="18dp"
+        android:layout_marginTop="4dp"
         android:text="El valor de la propiedad no puede ser inferior a $70.000000"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="211dp" />
+        app:layout_constraintTop_toBottomOf="@+id/ma_et_1" />
 
     <TextView
         android:id="@+id/ma_tv_nombreapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="@string/cr_dito_hipotecario_en_colombia"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintTop_toBottomOf="@+id/ma_tv_titulo" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_marginBottom="16dp"
+        android:text="Simular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
